@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="icon-container">
         <div className="icon-content-box">
           {/* <TSignIcon with="40" /> */}
-          <div className="content">DuongTT</div>
+          <div className="content">Duong Pay</div>
         </div>
       </div>
       <div className="page-container">
@@ -19,7 +19,7 @@ const Nav = () => {
           </Link>
         </span>
         <span className="page-route">
-          <Link to="/projects" href="#">
+          <Link to="/projects">
             Projects
           </Link>
         </span>
