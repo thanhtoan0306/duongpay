@@ -1,6 +1,8 @@
 import React from "react";
 // import { TSignIcon } from "@/public/custom-icons/custom-icons";
 import './Nav.css'
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <div className="wrapper">
@@ -12,16 +14,20 @@ const Nav = () => {
       </div>
       <div className="page-container">
         <span className="page-route">
-          <div className="active">Home</div>
+          <Link to="/" className="active">
+            Home
+          </Link>
         </span>
         <span className="page-route">
-          <div href="#">Projects</div>
+          <Link to="/projects" href="#">
+            Projects
+          </Link>
         </span>
         <span className="page-route">
-          <div href="#">Stories</div>
+          <Link to="/stories">Stories</Link>
         </span>
         <span className="page-route">
-          <div href="#">About me</div>
+          <Link to="/about">About me</Link>
         </span>
       </div>
     </div>
