@@ -23,6 +23,9 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <div style={{height: 200, width: '100%', background: 'gray', marginTop: 20}}>
+        my skill
+      </div>
     </div>
   );
 };
