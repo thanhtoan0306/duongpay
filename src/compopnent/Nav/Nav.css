@@ -47,9 +47,8 @@
     font-weight: 600;
 }
 
-.page-container .page-route a:active,
-.page-container .page-route a:hover {
-    border-bottom: 2px solid #333;
+.page-container .page-route a {
+    text-decoration: unset;
 }
 
 .page-container .page-route .active {

@@ -1,5 +1,4 @@
 import React from "react";
-// import { TSignIcon } from "@/public/custom-icons/custom-icons";
 import './Nav.css'
 import { Link } from "react-router-dom";
 
@@ -8,13 +7,12 @@ const Nav = () => {
     <div className="wrapper">
       <div className="icon-container">
         <div className="icon-content-box">
-          {/* <TSignIcon with="40" /> */}
           <div className="content">Duong Pay</div>
         </div>
       </div>
       <div className="page-container">
         <span className="page-route">
-          <Link to="/" className="active">
+          <Link to="/">
             Home
           </Link>
         </span>
